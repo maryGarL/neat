@@ -1,0 +1,222 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+}
+.div-contenedor-bg{
+  width: 100%;
+  height: 660px;
+  position: relative;
+  background-color: #F9F9F9;
+}
+.contenedor-bg{
+  width: 100%;
+  height: 630px;
+  background-color: #9ACCEF;
+}
+.hero-bg{
+  width: 100%;
+  height: 380px;
+	position: absolute;
+  top: 40%;
+	background-position: right bottom;
+}
+.hero-park{
+  width: 260px;
+	height: 316px;
+	position: absolute;
+  bottom: -14px;
+  left: 10%;
+}
+.hero-bench{
+  width: 148px;
+  height: 66px;
+  position: absolute;
+  bottom: -14px;
+  left: 70%;
+}
+.hero-castle{
+  width: 100%;
+	height: 680px;
+	position: absolute;
+  background-position: center center;
+  background-size: cover;
+  bottom: -28px;
+}
+.closealert{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: absolute;
+  background-size: cover;
+  z-index: 1000;
+  color: #ffffff;
+  right: 20px;
+  background: none;
+  border: none;
+  background-size: 18px;
+}
+
+.alertTop{
+  height: 35px;
+  width: 100%;
+  background-color: #ED7161;
+  position: fixed;
+  top: 0;
+  margin: auto;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 7px;
+  border-radius: none;
+  z-index: 500;
+}
+.closeAlertTop{
+  display: none;
+}
+.anchorNav{
+  font-weight: 600;
+  color: #ffffff;
+
+}
+.anchorNav:hover{
+  color: #3498DB;
+  background-color: transparent!important;
+}
+.header-nav{
+  position: absolute;
+  top: 64px;
+  left: 8%;
+}
+.logo{
+  width: 90px;
+  vertical-align: middle;
+}
+.anchorlogo{
+  padding: 0px 28px 0px 0px!important;
+}
+.titulo{
+  color: #ffffff;
+  position: absolute;
+  top: 190px;
+  left: 5%;
+  text-align: center;
+}
+.titulo h1{
+  font-size: 5.8rem;
+  font-weight: bold;
+}
+.titulo h3{
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+.btn-primary{
+  background-color: #3498DB!important;
+  border-radius: 35px;!important;
+  padding: 14px 42px!important;
+  border: none;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-top: 28px;
+}
+.garantia{
+  background-color: #F9F9F9;
+}
+.icon-divs{
+  position: relative;
+  width: 225px;
+  height: 225px;
+  margin: 0 auto 20px;
+  background-color: #FFCC66;
+  border-radius: 50%;
+}
+.icon--step-bond-guarantee,
+.icon--step-quote,
+.icon--step-payment{
+  position: absolute;
+  width: 175px;
+  height: 175px;
+  vertical-align: middle;
+  left: 10%;
+  top:10%;
+  background-size: contain;
+}
+.compromiso h1, .compromiso p{
+  font-weight: 600;
+}
+.compromiso p {
+  line-height: 200%;
+  font-size: 1.55rem;
+}
+.promesa, .full{
+  width: 100%;
+}
+.compromiso{
+  padding: 100px!important;
+}
+.icon--feature-support{
+  width: 80px;
+  height: 80px;
+  position: relative;
+  display: inline-block;
+  background-size: contain;
+}
+
+@media only screen and (max-width: 748px) {
+  .hero-park{
+    left: -200px;
+  }
+  .icon--hero-bench {
+    background-image: url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org….08H123.66v-6.08zm9.246-10.464h4.792v3.905h-4.792v-3.905z%22/%3E%3C/svg%3E);
+    background-repeat: no-repeat;
+    max-width: 36px;
+}
+  .titulo img{
+    width: 120px;
+    margin-left: 38%;
+  }
+  .titulo h3{
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 150%;
+  }
+  .btn-primary{
+    padding: 14px 49px!important;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-top: 28px;
+  }
+  .contenedor-bg{
+    width: 100%;
+    height: 350px;
+  }
+  .div-contenedor-bg{
+    width: 100%;
+    height: 450px;
+  }
+  .hero-bg{
+    top: 40%;
+  	background-position: right bottom;
+  }
+  .hero-park{
+    bottom: -160px;
+    left: -200px;
+  }
+  .hero-bench{
+    bottom: -160px;
+    left: 90%;
+  }
+  .hero-castle{
+    bottom: -160px;
+  }
+  .compromiso{
+    padding-top: 200px!important;
+  }
+}
+.icon{
+  position: relative;
+  display: inline-block;
+  background-size: contain;
+  height: 80px;
+  width: 80px;
+}

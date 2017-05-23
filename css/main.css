@@ -220,3 +220,14 @@ body{
   height: 80px;
   width: 80px;
 }
+.tamano{
+  width: 70%;
+  border: solid 1px;
+}
+.color{
+  background-color: #3498DB;
+
+}
+.pd{
+  padding-top: 120px;
+}
